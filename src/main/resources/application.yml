@@ -1,0 +1,18 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: ms-spring-webflux-nosql
+  data:
+    mongodb:
+      database: 20_marco_infante
+      uri: "mongodb+srv://marcoUser:infante983447196@cluster0.kx3fatq.mongodb.net/?appName=Cluster0"
+
+springdoc:
+  api-docs:
+    enabled: true
+    path: /api-docs
+  swagger-ui:
+    enabled: true
+    path: /swagger-ui.html
